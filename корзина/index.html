@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants - Магазин растений онлайн</title>
+        <link rel="website icon" type="png"
+    href="photo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="website icon" type="png" href="photo/logo.png">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo">
+            <div class="logo-icon">
+                <img src="../photo/logo.png" alt="Логотип Plants" class="logo-img">
+                <div class="logo-plant"></div>
+            </div>
+            <div class="logo-text"></div>
+        </a>
+        
+        <nav class="nav-menu">
+            <a href="../index.html" class="nav-link">Главная</a>
+            <a href="../categories.html" class="nav-link">Категории</a>
+            <a href="../товары из категории/index.html" class="nav-link">Все товары</a>
+            <a href="../товары из категории акт/index.html" class="nav-link">Все акции</a>
+        </nav>
+        
+        <div class="cart-icon">
+            <a href="#" class="cart-link">
+                <img src="../photo/icon.svg" alt="Корзина" class="logo-img1">
+                <span class="cart-count">4</span>
+            </a>
+        </div>
+    </header>
+
+<section class="cart-container">
+    <div class="cart-header">
+        <div class="page-title">Корзина покупок</div>
+        <div class="header-actions">
+            <div class="divider"></div>
+            <button class="category-btn">
+                <span>Все категории</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="cart-content">
+        <div class="items-list">
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="../photo/1.png" alt="Контейнер для ягод (пластик)">
+                </div>
+                <div class="item-content">
+                    <div class="item-header">
+                        <div class="item-title">Контейнер для ягод (пластик)</div>
+                        <div class="close-btn"></div>
+                    </div>
+                    <div class="item-footer">
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"></button>
+                            <div class="qty-value">1</div>
+                            <button class="qty-btn plus"></button>
+                        </div>
+                        <div class="price-info">
+                            <div class="current-price">$155</div>
+                            <div class="old-price">$240</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="../photo/2.png" alt="Контейнер для ягод (пластик)">
+                </div>
+                <div class="item-content">
+                    <div class="item-header">
+                        <div class="item-title">Контейнер для ягод (пластик)</div>
+                        <div class="close-btn"></div>
+                    </div>
+                    <div class="item-footer">
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"></button>
+                            <div class="qty-value">1</div>
+                            <button class="qty-btn plus"></button>
+                        </div>
+                        <div class="price-info">
+                            <div class="current-price">$26</div>
+                            <div class="old-price">$35</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="../photo/3.png" alt="Контейнер для ягод (пластик)">
+                </div>
+                <div class="item-content">
+                    <div class="item-header">
+                        <div class="item-title">Контейнер для ягод (пластик)</div>
+                        <div class="close-btn"></div>
+                    </div>
+                    <div class="item-footer">
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"></button>
+                            <div class="qty-value">2</div>
+                            <button class="qty-btn plus"></button>
+                        </div>
+                        <div class="price-info">
+                            <div class="current-price">$360</div>
+                            <div class="old-price"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="order-form">
+            <div class="order-details">
+                <div class="order-title">Детали заказа</div>
+                <div class="items-count">4 товара</div>
+                <div class="total-row">
+                    <div class="total-label">Итого</div>
+                    <div class="total-price">$541,00</div>
+                </div>
+            </div>
+
+            <div class="form-fields">
+                <input type="text" class="form-input" placeholder="Имя">
+                <input type="text" class="form-input" placeholder="Номер телефона">
+                <input type="email" class="form-input" placeholder="Email">
+                <button class="submit-btn">Заказать</button>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-header-section">
+                <div class="contact-header">
+                    <div class="contact-title-wrapper">
+                        <h2 class="contact-title">Контакты</h2>
+                    </div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-left-column">
+                        <div class="contact-card contact-card-phone">
+                            <div class="contact-content">
+                                <h3 class="contact-card-text">Телефон</h3>
+                                <p class="contact-card-title">+7 (499) 350-66-04</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card contact-card-address">
+                            <div class="contact-content">
+                                <h3 class="contact-card-text">Адрес</h3>
+                                <p class="contact-card-title">ул. Дубининская, 96, Москва, Россия, 115093</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-right-column">
+                            <div class="contact-card contact-card-social">
+                                <div class="contact-content">
+                                    <h3 class="contact-card-text">Социальные сети</h3>
+                                    <div class="social-icons">
+                                        <a href="#" class="social-icon">
+                                            <img src="../photo/333.png" alt="Telegram" class="social-icon-img">
+                                        </a>
+                                        <a href="#" class="social-icon">
+                                            <img src="../photo/555.png" alt="VK" class="social-icon-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="contact-card contact-card-hours">
+                            <div class="contact-content">
+                                <h3 class="contact-card-text">Часы работы</h3>
+                                <p class="contact-card-title">Круглосуточно</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <div class="map-wrapper">
+                        <img src="../photo/map.png" width="1850" alt="Карта местоположения" class="map-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
